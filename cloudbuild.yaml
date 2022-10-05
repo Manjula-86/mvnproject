@@ -14,7 +14,7 @@ steps:
    - 'SERVICE-NAME'
    - '--image'
    - 'gcr.io/linen-striker-359705/SERVICE-NAME:$COMMIT_SHA'
-   - '--region'
-   - 'global'
+   #- '--region'
+   #- 'global'
  images:
  - 'gcr.io/linen-striker-359705/SERVICE-NAME:$COMMIT_SHA'
